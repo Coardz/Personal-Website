@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BBB8B2;
+}
+
+nav {
+    background-color: #2e2e3a;
+}
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.menu-container div{
+    height: 100px;
+    border: black 2px solid;
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    background: #BC5D2E;
+}
+
+.menu-container p {
+    color: white;
+}
+
+.topic {
+    font-weight: bold;
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.description {
+    font-size: 13px;
+}
+
+.container {
+    margin: 5px;
+}
