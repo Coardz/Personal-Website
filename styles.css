@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #BBB8B2;
+    background-color: #fff;
 }
 
 nav {
@@ -20,6 +20,7 @@ li, a{
     display: inline-block;
     padding: 5px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .menu-container {
@@ -53,4 +54,28 @@ li, a{
 
 .container {
     margin: 5px;
+}
+
+.nav-container{
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: center;
+    /* height: 30px; */
+}
+
+
+.nav-container div{
+    /* border: solid 1px white; */
+    width: 500px;
+    justify-content: space-between;
+}
+
+.text-container, .main-introduction {
+    padding: 10px;
+    margin: 10px;
+}
+
+.main-body div {
+    border: 1px solid black;
+    margin: 10px 10px;
 }
